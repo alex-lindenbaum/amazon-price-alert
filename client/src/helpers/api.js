@@ -1,7 +1,7 @@
 export const authenticate = path => {
     return async (user, onSuccess, onFail) => {
         try {
-            const res = await fetch('http://localhost:8000/auth/' + path, {
+            const res = await fetch('/auth/' + path, {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify(user)
@@ -23,7 +23,7 @@ export const authenticate = path => {
 
 export const fetchItems = async (token, onSuccess, onFail) => {
     try {
-        const res = await fetch('http://localhost:8000/items/all', {
+        const res = await fetch('/items/all', {
             method: 'GET',
             headers: {
                 Authorization: token
@@ -43,7 +43,7 @@ export const postItems = async (token, items) => {
     });
 
     try {
-        const res = await fetch('http://localhost:8000/items/save', {
+        const res = await fetch('/items/save', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
