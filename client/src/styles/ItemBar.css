@@ -1,0 +1,29 @@
+.item-bar {
+    margin: 0;
+}
+
+.item-bar button {
+    width: 50%;
+    height: 100%;
+    color: #fff;
+    font-weight: bold;
+}
+
+.tracking:hover, .track:hover, .remove:hover {
+    border: 1px solid #fff;
+}
+
+.tracking {
+    background: var(--color2);
+    border: 1px solid var(--color2);
+}
+
+.track {
+    background: #777;
+    border: 1px solid #777;
+}
+
+.remove {
+    background: #ff0000;
+    border: 1px solid #ff0000;
+}

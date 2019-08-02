@@ -1,0 +1,10 @@
+footer {
+    font-size: 12px;
+    line-height: 2.5vh;
+    border-top: 1px solid var(--color3);
+    padding: 10px;
+}
+
+footer p {
+    text-indent: 10px;
+}

@@ -1,0 +1,29 @@
+.alert {
+    margin-left: 5vh;
+    margin-right: 5vh;
+    padding: 2vh;
+    border: 2px solid var(--color5);
+    background: var(--color4);
+}
+
+.alert p {
+    background: var(--color4);
+    color: #fff;
+    font-size: 20px;
+    font-weight: bolder;
+    margin: 5px;
+}
+
+.alert button {
+    margin-top: 10px;
+    width: 15vh;
+    height: 5vh;
+    font-size: 18px;
+    background: var(--color2);
+    border: 1px solid var(--color5);
+    color: #fff;
+}
+
+.alert button:hover {
+    border: 1px solid #fff;
+}

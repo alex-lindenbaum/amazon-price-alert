@@ -1,0 +1,32 @@
+{
+  "name": "amazonwebscraper-nodejs",
+  "version": "1.0.0",
+  "description": "The back end api for the Amazon Web Scraper project.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "heroku-postbuild": "cd client && npm install && npm run build"
+  },
+  "keywords": [
+    "jwt",
+    "mongodb",
+    "web scraper",
+    "node",
+    "express"
+  ],
+  "author": "Alexander Lindenbaum",
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.0.0",
+    "express": "^4.17.1",
+    "joi": "^14.3.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.6.6",
+    "passport": "^0.4.0",
+    "passport-jwt": "^4.0.0",
+    "passport-local": "^1.0.0"
+  }
+}

@@ -1,0 +1,12 @@
+.auth {
+    height: 100vh;
+}
+
+.auth p {
+    font-size: 24px;
+    line-height: 6vh;
+
+    margin-left: 5vh;
+    margin-right: 5vh;
+    padding-top: 10px;
+}
